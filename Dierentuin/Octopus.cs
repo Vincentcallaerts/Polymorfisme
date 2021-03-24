@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Dierentuin
 {
-    class Program
+    class Octopus : Dier
     {
-        static void Main(string[] args)
+        public override void Zegt()
         {
+            Console.WriteLine("blub blub");
         }
     }
 }
